@@ -1,0 +1,26 @@
+$Lightpink: #fae6f3;
+$Pink: darken(#fae6f3, 30%);
+$Darkpink: darken(#fae6f3, 70%);
+
+.about {
+  &__title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  &__text {
+    font-size: 1.5em;
+    margin-bottom: 1rem;
+  }
+  &__logo {
+    width: 400px;
+    height: 400px;
+  }
+  &__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+    background-color: $Pink;
+  }
+}

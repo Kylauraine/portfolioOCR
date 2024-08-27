@@ -1,0 +1,43 @@
+$Lightpink: #fae6f3;
+$Pink: darken(#fae6f3, 30%);
+$Darkpink: darken(#fae6f3, 70%);
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  color: $Darkpink;
+
+  &__title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  &__nav {
+    &-list {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      margin: 0;
+      padding: 0;
+    }
+
+    &-item {
+      a {
+        text-decoration: none;
+        color: $Darkpink;
+        font-family: "Montserrat", sans-serif;
+        font-size: 16px;
+
+        font-weight: 400;
+
+        &:hover {
+          color: $Pink;
+        }
+      }
+    }
+  }
+}

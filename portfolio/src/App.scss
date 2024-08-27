@@ -1,0 +1,12 @@
+$Lightpink: #fae6f3;
+$Pink: darken(#fae6f3, 30%);
+$Darkpink: darken(#fae6f3, 70%);
+$Font-Title: "Montserrat", sans-serif;
+$Font-Text: "Open Sans", sans-serif;
+
+body {
+  background-color: $Lightpink;
+  max-width: 1200px;
+  margin: auto;
+  font-family: $Font-Text;
+}
