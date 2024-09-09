@@ -9,10 +9,14 @@ const About = () => {
         <img className="about__logo" src={LogoDark} alt="Logo" />
 
         <div className="about__text">
-          <h2 className="about__title">About</h2>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatem, quia, quos, quod consequatur voluptate quas voluptas
-          dignissimos voluptatum iusto doloribus. Quisquam voluptatem, quia, quos, quod consequatur voluptate quas voluptas dignissimos voluptatum
-          iusto doloribus.
+          <h1 className="about__name ">DÉVELOPPEUSE WEB JUNIOR</h1>
+          <h2 className="about__title">À propos</h2>
+          Bonjour ! <br />
+          Je m'appelle Laura Preston, je suis une développeuse web junior basée en région parisienne.
+          <br />
+          Après une formation intensive de 6 mois chez Open Classrooms, je suis à la recherche de ma première opportunité professionnelle en tant que
+          développeuse front-end.
+          <br />
         </div>
       </div>
     </section>

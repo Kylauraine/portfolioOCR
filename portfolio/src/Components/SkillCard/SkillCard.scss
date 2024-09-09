@@ -1,0 +1,33 @@
+$Lightpink: lighten(#e26380, 30%);
+$Pink: #e26380;
+$Darkpink: darken(#e26380, 40%);
+
+.skill-card {
+  background-color: $Lightpink;
+  border-left: 3px solid $Pink;
+  border-top: 1px solid $Pink;
+
+  padding: 10px;
+  width: 100%;
+  margin: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+
+  &__title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #343a40;
+    margin-bottom: 10px;
+  }
+
+  &__description {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #6c757d;
+  }
+}

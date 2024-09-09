@@ -1,19 +1,27 @@
-$Lightpink: #fae6f3;
-$Pink: darken(#fae6f3, 30%);
-$Darkpink: darken(#fae6f3, 70%);
+$Lightpink: lighten(#e26380, 25%);
+$Pink: #e26380;
+$Darkpink: darken(#e26380, 40%);
 
 .header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: $Lightpink;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   display: flex;
+
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
+  padding: 20px 10px;
   color: $Darkpink;
 
-  &__title {
-    font-family: "Montserrat", sans-serif;
-    font-size: 24px;
-    font-weight: 700;
-    margin: 0;
+  &__portrait {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
   &__nav {
@@ -30,7 +38,7 @@ $Darkpink: darken(#fae6f3, 70%);
         text-decoration: none;
         color: $Darkpink;
         font-family: "Montserrat", sans-serif;
-        font-size: 16px;
+        font-size: 24px;
 
         font-weight: 400;
 

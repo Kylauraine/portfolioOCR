@@ -8,7 +8,6 @@ const ProgressBar = ({ skill, level }) => {
       <div className="progress-bar__container">
         <div className="progress-bar__fill" style={{ width: `${level}%` }}></div>
       </div>
-      <span className="progress-bar__level">{level}%</span>
     </div>
   );
 };

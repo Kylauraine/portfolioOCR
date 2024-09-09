@@ -1,0 +1,18 @@
+$Lightpink: lighten(#e26380, 30%);
+$Pink: #e26380;
+$Darkpink: darken(#e26380, 40%);
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  &__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 1em;
+
+    width: 46%;
+  }
+}

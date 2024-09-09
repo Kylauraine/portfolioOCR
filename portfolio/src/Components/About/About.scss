@@ -1,26 +1,42 @@
-$Lightpink: #fae6f3;
-$Pink: darken(#fae6f3, 30%);
-$Darkpink: darken(#fae6f3, 70%);
+$Lightpink: lighten(#e26380, 30%);
+$Pink: #e26380;
+$Darkpink: darken(#e26380, 40%);
+
+// @font-face {
+//   font-family: "Protest Guerilla";
+//   src: url("../../Fonts/ProtestGuerrilla-Regular.ttf") format("truetype");
+//   font-weight: normal;
+//   font-style: normal;
+// }
 
 .about {
+  &__name {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: $Darkpink;
+
+    // font-family: "Protest Guerilla", sans-serif;
+  }
   &__title {
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 1rem;
   }
   &__text {
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin-bottom: 1rem;
   }
   &__logo {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
   }
   &__container {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: center;
     gap: 1em;
-    background-color: $Pink;
+    background-color: $Lightpink;
+    margin-top: 20px;
   }
 }
